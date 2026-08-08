@@ -529,16 +529,23 @@
       }
 
       .footer__inner {
-        grid-template-columns: 1fr auto;
-        align-items: end;
-      }
-
-      .footer__brand { gap: 12px; letter-spacing: normal; }
-    .footer__wordmark { width: min(220px, 48vw); height: auto; display: block; }
-
-    .footer__meta {
-        text-align: right;
-      }
+	  grid-template-columns: 1fr auto;
+	  align-items: center;
+	}
+	
+	.footer__brand-lockup {
+	  width: 300px;
+	}
+	
+	.footer__wordmark {
+	  display: block;
+	  width: 100%;
+	  height: auto;
+	}
+	
+	.footer__meta {
+	  text-align: right;
+	}
     }
 
     @media (min-width: 1080px) {
@@ -565,7 +572,7 @@
       }
 
       .brand-plaque {
-        width: 230px;
+        width: 100%;
       }
 
       .brand-category {
