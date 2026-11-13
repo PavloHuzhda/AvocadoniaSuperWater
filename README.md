@@ -9,7 +9,7 @@ Open `index.html` in any modern browser.
 ## Deploy to GitHub Pages
 
 1. Create a new GitHub repository.
-2. Upload `index.html`.
+2. Upload `index.html`, `styles.css`, `script.js`, `CNAME` and all `.png` images.
 3. Open **Settings → Pages**.
 4. Under **Build and deployment**, choose **Deploy from a branch**.
 5. Select the `main` branch and `/ (root)`.
